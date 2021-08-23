@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01642DC903059A12358B5BC3AFBE650A /* Pods-YREyeDistance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE7C0E897DDB39DB940D77B4CAFD75 /* Pods-YREyeDistance_Tests-dummy.m */; };
+		12CD86C9EA8DAB5F1F8163C3FF2712C7 /* YREyeDistance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1120B7AFF733FF66C4E7FF9D6D6664 /* YREyeDistance-dummy.m */; };
+		24D2137E6DA6E4D7DF1021ADF047CD65 /* Pods-YREyeDistance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13749E5D3475F6CF78BBBF3B9462063F /* Pods-YREyeDistance_Example-dummy.m */; };
+		5DA18B2FEA2D870AC83B333FEB21CED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6316B65BF3348E991BC5B5F5891559FC /* Pods-YREyeDistance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BBCFCB5CB4628A24AD88DEAC2D53D0 /* Pods-YREyeDistance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C5F718DFEDD3760806D234ECE5F10B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AAABB8E445A0B15804F00FA82287B762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C73790DDD00D56C667575F108C123316 /* YREyeDistance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BAEB484B7F1DA7B52A75040AF66284 /* YREyeDistance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00CB4BB32936AC4E20D91E537A43551 /* Pods-YREyeDistance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDA9DC39C846037E355364982684C25 /* Pods-YREyeDistance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4199A8A66FDB277B56669452DC4C96F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09913C752C074B57DB470BE8BBA09F30;
+			remoteInfo = YREyeDistance;
+		};
+		8A500D1150D1BB3C81E94E99CE465F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8360E3FD53F75BDD5B36A9AF6873CBE1;
+			remoteInfo = "Pods-YREyeDistance_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FFFDB3C3AE2B69A20A7D30EF126684 /* YREyeDistance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YREyeDistance-prefix.pch"; sourceTree = "<group>"; };
+		0BEF16A317561314A32D8FC51FE5E2BD /* Pods-YREyeDistance_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YREyeDistance_Tests.modulemap"; sourceTree = "<group>"; };
+		0FFECC0B329B707E9BD2B214294C71EC /* Pods-YREyeDistance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YREyeDistance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13749E5D3475F6CF78BBBF3B9462063F /* Pods-YREyeDistance_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YREyeDistance_Example-dummy.m"; sourceTree = "<group>"; };
+		1453D89F94C3172EC18D2D3215FA372D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		22F8E8AF4CCD87943BAB9450E9A72FB6 /* Pods_YREyeDistance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YREyeDistance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253C3F06E4B119D8DB5373DBABA9E02F /* Pods-YREyeDistance_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YREyeDistance_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3836A39B117D3028B7743411C16EE827 /* YREyeDistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YREyeDistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D591A4A2439AF4BAD2122025685E34 /* Pods-YREyeDistance_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YREyeDistance_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BDA9DC39C846037E355364982684C25 /* Pods-YREyeDistance_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YREyeDistance_Example-umbrella.h"; sourceTree = "<group>"; };
+		4EEA03407471BAC4A2A8C486FFF143E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		57054A03742AB7A70BF232B3FB6719DC /* Pods-YREyeDistance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YREyeDistance_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6558E083863E35BDD801676D20DCA0F9 /* YREyeDistance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YREyeDistance.debug.xcconfig; sourceTree = "<group>"; };
+		6D95F93DF2B74E662A907152595CFEC4 /* YREyeDistance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YREyeDistance-Info.plist"; sourceTree = "<group>"; };
+		6F1120B7AFF733FF66C4E7FF9D6D6664 /* YREyeDistance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YREyeDistance-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86BAEB484B7F1DA7B52A75040AF66284 /* YREyeDistance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YREyeDistance-umbrella.h"; sourceTree = "<group>"; };
+		89DBB6F18B3B6AC71CFA117057DA5B39 /* Pods-YREyeDistance_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YREyeDistance_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A536A981F4E6077C40F5A5CD60D0BAF6 /* YREyeDistance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YREyeDistance.modulemap; sourceTree = "<group>"; };
+		AE41E101C5FAFF9713A9240FBFF53464 /* Pods_YREyeDistance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YREyeDistance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DE7C0E897DDB39DB940D77B4CAFD75 /* Pods-YREyeDistance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YREyeDistance_Tests-dummy.m"; sourceTree = "<group>"; };
+		C538E9B2395C78398385D287E488E3DE /* Pods-YREyeDistance_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YREyeDistance_Tests-Info.plist"; sourceTree = "<group>"; };
+		C6F908C9B125B7D608FE3FB6696595DD /* Pods-YREyeDistance_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YREyeDistance_Example-Info.plist"; sourceTree = "<group>"; };
+		CBCE6EB57D33BAD50C667C4A799780D5 /* Pods-YREyeDistance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YREyeDistance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D57318232F7B1CEE250908908A4768AF /* Pods-YREyeDistance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YREyeDistance_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D9BBCFCB5CB4628A24AD88DEAC2D53D0 /* Pods-YREyeDistance_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YREyeDistance_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7A983DB2FD9075ED3B7B72816547585 /* YREyeDistance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YREyeDistance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8D53DF23A48D643DB73234A6B5B5016 /* Pods-YREyeDistance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YREyeDistance_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAE77F944AF0E2E67F8498F4E878D9E3 /* YREyeDistance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YREyeDistance.release.xcconfig; sourceTree = "<group>"; };
+		FD3AB667021E69276DDBB30C5F62D9A8 /* Pods-YREyeDistance_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YREyeDistance_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF8362355802FE2EA1271539C1806F40 /* Pods-YREyeDistance_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YREyeDistance_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2868ADBFA7486A83427FB3DD5BCBFC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA18B2FEA2D870AC83B333FEB21CED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC93EF25E3784148F9EBB1D7258F0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABB8E445A0B15804F00FA82287B762 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E656EDF9BD6B0BF136D7DE7F6D4CEB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5F718DFEDD3760806D234ECE5F10B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B3297011F64F4FED4293EDC15F3D9C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				900FE2E1D6E76944F2D1972E9D1C435F /* YREyeDistance */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		782A486D322CA6F9D2C005C7DCB9F1A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A536A981F4E6077C40F5A5CD60D0BAF6 /* YREyeDistance.modulemap */,
+				6F1120B7AFF733FF66C4E7FF9D6D6664 /* YREyeDistance-dummy.m */,
+				6D95F93DF2B74E662A907152595CFEC4 /* YREyeDistance-Info.plist */,
+				09FFFDB3C3AE2B69A20A7D30EF126684 /* YREyeDistance-prefix.pch */,
+				86BAEB484B7F1DA7B52A75040AF66284 /* YREyeDistance-umbrella.h */,
+				6558E083863E35BDD801676D20DCA0F9 /* YREyeDistance.debug.xcconfig */,
+				EAE77F944AF0E2E67F8498F4E878D9E3 /* YREyeDistance.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YREyeDistance";
+			sourceTree = "<group>";
+		};
+		825B3E949B5E246CF61CDEA4AB250700 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACE01B6FCCF494E87C7B89BBF9A5B1F /* Pods-YREyeDistance_Example */,
+				8B0B1DF1E3BF1AFA5E62561AA2BC273D /* Pods-YREyeDistance_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B0B1DF1E3BF1AFA5E62561AA2BC273D /* Pods-YREyeDistance_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF16A317561314A32D8FC51FE5E2BD /* Pods-YREyeDistance_Tests.modulemap */,
+				0FFECC0B329B707E9BD2B214294C71EC /* Pods-YREyeDistance_Tests-acknowledgements.markdown */,
+				FD3AB667021E69276DDBB30C5F62D9A8 /* Pods-YREyeDistance_Tests-acknowledgements.plist */,
+				C3DE7C0E897DDB39DB940D77B4CAFD75 /* Pods-YREyeDistance_Tests-dummy.m */,
+				C538E9B2395C78398385D287E488E3DE /* Pods-YREyeDistance_Tests-Info.plist */,
+				D9BBCFCB5CB4628A24AD88DEAC2D53D0 /* Pods-YREyeDistance_Tests-umbrella.h */,
+				CBCE6EB57D33BAD50C667C4A799780D5 /* Pods-YREyeDistance_Tests.debug.xcconfig */,
+				E8D53DF23A48D643DB73234A6B5B5016 /* Pods-YREyeDistance_Tests.release.xcconfig */,
+			);
+			name = "Pods-YREyeDistance_Tests";
+			path = "Target Support Files/Pods-YREyeDistance_Tests";
+			sourceTree = "<group>";
+		};
+		900FE2E1D6E76944F2D1972E9D1C435F /* YREyeDistance */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9ACC7FB09E25F68B94337D7CD0E2C /* Pod */,
+				782A486D322CA6F9D2C005C7DCB9F1A5 /* Support Files */,
+			);
+			name = YREyeDistance;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BACE01B6FCCF494E87C7B89BBF9A5B1F /* Pods-YREyeDistance_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF8362355802FE2EA1271539C1806F40 /* Pods-YREyeDistance_Example.modulemap */,
+				39D591A4A2439AF4BAD2122025685E34 /* Pods-YREyeDistance_Example-acknowledgements.markdown */,
+				89DBB6F18B3B6AC71CFA117057DA5B39 /* Pods-YREyeDistance_Example-acknowledgements.plist */,
+				13749E5D3475F6CF78BBBF3B9462063F /* Pods-YREyeDistance_Example-dummy.m */,
+				253C3F06E4B119D8DB5373DBABA9E02F /* Pods-YREyeDistance_Example-frameworks.sh */,
+				C6F908C9B125B7D608FE3FB6696595DD /* Pods-YREyeDistance_Example-Info.plist */,
+				3BDA9DC39C846037E355364982684C25 /* Pods-YREyeDistance_Example-umbrella.h */,
+				D57318232F7B1CEE250908908A4768AF /* Pods-YREyeDistance_Example.debug.xcconfig */,
+				57054A03742AB7A70BF232B3FB6719DC /* Pods-YREyeDistance_Example.release.xcconfig */,
+			);
+			name = "Pods-YREyeDistance_Example";
+			path = "Target Support Files/Pods-YREyeDistance_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6B3297011F64F4FED4293EDC15F3D9C4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EB5B7B920437492E59E5577CA9C070C2 /* Products */,
+				825B3E949B5E246CF61CDEA4AB250700 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB5B7B920437492E59E5577CA9C070C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F8E8AF4CCD87943BAB9450E9A72FB6 /* Pods_YREyeDistance_Example.framework */,
+				AE41E101C5FAFF9713A9240FBFF53464 /* Pods_YREyeDistance_Tests.framework */,
+				3836A39B117D3028B7743411C16EE827 /* YREyeDistance.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C9ACC7FB09E25F68B94337D7CD0E2C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1453D89F94C3172EC18D2D3215FA372D /* LICENSE */,
+				4EEA03407471BAC4A2A8C486FFF143E5 /* README.md */,
+				E7A983DB2FD9075ED3B7B72816547585 /* YREyeDistance.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1683C48197C20C7F7BA44FFF90199905 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00CB4BB32936AC4E20D91E537A43551 /* Pods-YREyeDistance_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4744C813B1E67F2691B75DB4A3567A6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6316B65BF3348E991BC5B5F5891559FC /* Pods-YREyeDistance_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1CBF044D63DA415C90FC9168E8B4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73790DDD00D56C667575F108C123316 /* YREyeDistance-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09913C752C074B57DB470BE8BBA09F30 /* YREyeDistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C185CDC70E15AD758F226E41EDFEB6D /* Build configuration list for PBXNativeTarget "YREyeDistance" */;
+			buildPhases = (
+				8EF1CBF044D63DA415C90FC9168E8B4C /* Headers */,
+				26FD2CE8CECDD588A186B1D84CC57B64 /* Sources */,
+				6FC93EF25E3784148F9EBB1D7258F0ED /* Frameworks */,
+				839FD10A1333AEB058D6895417DE255A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YREyeDistance;
+			productName = YREyeDistance;
+			productReference = 3836A39B117D3028B7743411C16EE827 /* YREyeDistance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7140B02B4A0AC21FFEAEC5B5862C7FE2 /* Pods-YREyeDistance_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD06A0470D8AA41889026EB5DF37C39 /* Build configuration list for PBXNativeTarget "Pods-YREyeDistance_Tests" */;
+			buildPhases = (
+				4744C813B1E67F2691B75DB4A3567A6B /* Headers */,
+				0E2C1226D75C2003B6565D63A6CF1AFF /* Sources */,
+				E656EDF9BD6B0BF136D7DE7F6D4CEB3E /* Frameworks */,
+				DBF96E56917F1F6346637E506B23754E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE34A3F295BC7D9631A3626F179F6BE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-YREyeDistance_Tests";
+			productName = "Pods-YREyeDistance_Tests";
+			productReference = AE41E101C5FAFF9713A9240FBFF53464 /* Pods_YREyeDistance_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8360E3FD53F75BDD5B36A9AF6873CBE1 /* Pods-YREyeDistance_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2675EA2CECE90DAEFDAC33557B9AB05 /* Build configuration list for PBXNativeTarget "Pods-YREyeDistance_Example" */;
+			buildPhases = (
+				1683C48197C20C7F7BA44FFF90199905 /* Headers */,
+				6EC46E52A08D38FD8719B041EEACEF0A /* Sources */,
+				2868ADBFA7486A83427FB3DD5BCBFC67 /* Frameworks */,
+				40B54A3407108BB82250FBB5EB211DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB26C02AF00061E42EFD0A070D10FF7F /* PBXTargetDependency */,
+			);
+			name = "Pods-YREyeDistance_Example";
+			productName = "Pods-YREyeDistance_Example";
+			productReference = 22F8E8AF4CCD87943BAB9450E9A72FB6 /* Pods_YREyeDistance_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EB5B7B920437492E59E5577CA9C070C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8360E3FD53F75BDD5B36A9AF6873CBE1 /* Pods-YREyeDistance_Example */,
+				7140B02B4A0AC21FFEAEC5B5862C7FE2 /* Pods-YREyeDistance_Tests */,
+				09913C752C074B57DB470BE8BBA09F30 /* YREyeDistance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B54A3407108BB82250FBB5EB211DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839FD10A1333AEB058D6895417DE255A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF96E56917F1F6346637E506B23754E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E2C1226D75C2003B6565D63A6CF1AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01642DC903059A12358B5BC3AFBE650A /* Pods-YREyeDistance_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD2CE8CECDD588A186B1D84CC57B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD86C9EA8DAB5F1F8163C3FF2712C7 /* YREyeDistance-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC46E52A08D38FD8719B041EEACEF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D2137E6DA6E4D7DF1021ADF047CD65 /* Pods-YREyeDistance_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB26C02AF00061E42EFD0A070D10FF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YREyeDistance;
+			target = 09913C752C074B57DB470BE8BBA09F30 /* YREyeDistance */;
+			targetProxy = 4199A8A66FDB277B56669452DC4C96F2 /* PBXContainerItemProxy */;
+		};
+		CE34A3F295BC7D9631A3626F179F6BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YREyeDistance_Example";
+			target = 8360E3FD53F75BDD5B36A9AF6873CBE1 /* Pods-YREyeDistance_Example */;
+			targetProxy = 8A500D1150D1BB3C81E94E99CE465F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29069A6D78D0DAC010730CFA8F2FDD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57318232F7B1CEE250908908A4768AF /* Pods-YREyeDistance_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		659FDF7B5FAF2F37C106FDA8FC66782A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE77F944AF0E2E67F8498F4E878D9E3 /* YREyeDistance.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YREyeDistance/YREyeDistance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YREyeDistance/YREyeDistance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YREyeDistance/YREyeDistance.modulemap";
+				PRODUCT_MODULE_NAME = YREyeDistance;
+				PRODUCT_NAME = YREyeDistance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76BBFA5490C76671EAF963E97157759A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D53DF23A48D643DB73234A6B5B5016 /* Pods-YREyeDistance_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YREyeDistance_Tests/Pods-YREyeDistance_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YREyeDistance_Tests/Pods-YREyeDistance_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E23EDE26B1BE9339EC4A7F6301006F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCE6EB57D33BAD50C667C4A799780D5 /* Pods-YREyeDistance_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YREyeDistance_Tests/Pods-YREyeDistance_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YREyeDistance_Tests/Pods-YREyeDistance_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862427997DB473F1FA64E631D9CF99CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6558E083863E35BDD801676D20DCA0F9 /* YREyeDistance.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YREyeDistance/YREyeDistance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YREyeDistance/YREyeDistance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YREyeDistance/YREyeDistance.modulemap";
+				PRODUCT_MODULE_NAME = YREyeDistance;
+				PRODUCT_NAME = YREyeDistance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E0F82555378DD643881E8679F4DA3F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57054A03742AB7A70BF232B3FB6719DC /* Pods-YREyeDistance_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C185CDC70E15AD758F226E41EDFEB6D /* Build configuration list for PBXNativeTarget "YREyeDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862427997DB473F1FA64E631D9CF99CE /* Debug */,
+				659FDF7B5FAF2F37C106FDA8FC66782A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD06A0470D8AA41889026EB5DF37C39 /* Build configuration list for PBXNativeTarget "Pods-YREyeDistance_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E23EDE26B1BE9339EC4A7F6301006F9 /* Debug */,
+				76BBFA5490C76671EAF963E97157759A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2675EA2CECE90DAEFDAC33557B9AB05 /* Build configuration list for PBXNativeTarget "Pods-YREyeDistance_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29069A6D78D0DAC010730CFA8F2FDD98 /* Debug */,
+				E0F82555378DD643881E8679F4DA3F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

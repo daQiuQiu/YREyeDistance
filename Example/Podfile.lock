@@ -1,0 +1,16 @@
+PODS:
+  - YREyeDistance (0.1.0)
+
+DEPENDENCIES:
+  - YREyeDistance (from `../`)
+
+EXTERNAL SOURCES:
+  YREyeDistance:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YREyeDistance: 2faef843b056a7d95a04c5cbfd8e164efd5ef85a
+
+PODFILE CHECKSUM: a63a6c7e1703adeafde05f08efda73d91229ed4d
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,22 @@
+{
+  "name": "YREyeDistance",
+  "version": "0.1.0",
+  "summary": "A short description of YREyeDistance.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yiren/YREyeDistance",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yiren": "ren_yi92@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/yiren/YREyeDistance.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YREyeDistance/Classes/**/*"
+}

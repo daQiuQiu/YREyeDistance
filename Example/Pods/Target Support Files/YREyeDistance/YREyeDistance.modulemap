@@ -1,0 +1,6 @@
+framework module YREyeDistance {
+  umbrella header "YREyeDistance-umbrella.h"
+
+  export *
+  module * { export * }
+}
