@@ -230,6 +230,7 @@ class YRVisionHandler: NSObject {
         }
         
         //偏转处理
+        var distanceAngle: Float = 0
         var distance: Float = 0
         if UIDevice.current.orientation.isLandscape {
             distance = (1.0 + self.realEyeDistance * Float(self.previewLayer!.frame.width) / 24 / (self.eyeDistance)) * self.fLength / 10.0 * self.fovFactor
