@@ -22,7 +22,7 @@ pod 'YREyeDistance'
 
 ## Author
 
-yiren, ren_yi92@sina.com
+daQiuQiu
 
 ## License
 
