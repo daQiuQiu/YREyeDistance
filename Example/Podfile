@@ -1,10 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'YREyeDistance_Example' do
   pod 'YREyeDistance', :path => '../'
-
+  pod 'SnapKit'
+  
   target 'YREyeDistance_Tests' do
     inherit! :search_paths
 

@@ -15,8 +15,26 @@
     "git": "https://github.com/yiren/YREyeDistance.git",
     "tag": "0.1.0"
   },
+  "static_framework": true,
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "YREyeDistance/Classes/**/*"
+  "swift_versions": "5.0",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "YREyeDistance/Classes/**/*",
+      "frameworks": [
+        "UIKit",
+        "AVKit",
+        "Vision"
+      ]
+    },
+    {
+      "name": "ARKit",
+      "source_files": "YREyeDistance/Classes/ARKit/**/*"
+    }
+  ],
+  "swift_version": "5.0"
 }

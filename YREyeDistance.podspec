@@ -28,15 +28,19 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/yiren/YREyeDistance.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'YREyeDistance/Classes/**/*'
+  s.static_framework = true
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
+  s.default_subspec = 'Core'
   
-  # s.resource_bundles = {
-  #   'YREyeDistance' => ['YREyeDistance/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Core' do |core|
+      core.source_files = 'YREyeDistance/Classes/**/*'
+      core.frameworks = 'UIKit', 'AVKit', 'Vision'
+    end
+  
+  s.subspec 'ARKit' do |arkit|
+      arkit.source_files = 'YREyeDistance/Classes/ARKit/**/*'
+    end
+  
+  
 end

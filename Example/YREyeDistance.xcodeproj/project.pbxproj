@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8FB52BF726E5114E007416A5 /* YRNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB52BF426E5114D007416A5 /* YRNaviViewController.swift */; };
+		8FB52BF826E5114E007416A5 /* NoCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB52BF526E5114D007416A5 /* NoCameraViewController.swift */; };
+		8FB52BF926E5114E007416A5 /* UseCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB52BF626E5114D007416A5 /* UseCameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +42,17 @@
 		607FACE51AFB9204008FA782 /* YREyeDistance_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YREyeDistance_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7BC5A1CF1A77EA434DEDB9A0 /* YREyeDistance.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YREyeDistance.podspec; path = ../YREyeDistance.podspec; sourceTree = "<group>"; };
+		7BC5A1CF1A77EA434DEDB9A0 /* YREyeDistance.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YREyeDistance.podspec; path = ../YREyeDistance.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		80862A8B2940341E4DF249AD /* Pods-YREyeDistance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YREyeDistance_Example.release.xcconfig"; path = "Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example.release.xcconfig"; sourceTree = "<group>"; };
-		97A6B4D482C5133B1731C77E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8FB52BF426E5114D007416A5 /* YRNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YRNaviViewController.swift; sourceTree = "<group>"; };
+		8FB52BF526E5114D007416A5 /* NoCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCameraViewController.swift; sourceTree = "<group>"; };
+		8FB52BF626E5114D007416A5 /* UseCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCameraViewController.swift; sourceTree = "<group>"; };
+		97A6B4D482C5133B1731C77E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A109E197689DEDBC2600DA47 /* Pods-YREyeDistance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YREyeDistance_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YREyeDistance_Tests/Pods-YREyeDistance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4D8C9CF43A9BF21060A14BE /* Pods-YREyeDistance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YREyeDistance_Tests.release.xcconfig"; path = "Target Support Files/Pods-YREyeDistance_Tests/Pods-YREyeDistance_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD8D14042BBBAEE0242C13C3 /* Pods-YREyeDistance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YREyeDistance_Example.debug.xcconfig"; path = "Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA31849BD7F338F1136C103 /* Pods_YREyeDistance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YREyeDistance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA43FEB07FA7F15CCFA96D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FCA43FEB07FA7F15CCFA96D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,6 @@
 				A109E197689DEDBC2600DA47 /* Pods-YREyeDistance_Tests.debug.xcconfig */,
 				A4D8C9CF43A9BF21060A14BE /* Pods-YREyeDistance_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,6 +121,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8FB52BF426E5114D007416A5 /* YRNaviViewController.swift */,
+				8FB52BF526E5114D007416A5 /* NoCameraViewController.swift */,
+				8FB52BF626E5114D007416A5 /* UseCameraViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -171,7 +179,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D6D6C41A9D451A399577B2EE /* [CP] Embed Pods Frameworks */,
+				45B3962D976E23C1840BA465 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,6 +293,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		45B3962D976E23C1840BA465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AF11074638442286D29A957D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,24 +333,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D6D6C41A9D451A399577B2EE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YREyeDistance/YREyeDistance.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YREyeDistance.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YREyeDistance_Example/Pods-YREyeDistance_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -331,7 +340,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB52BF826E5114E007416A5 /* NoCameraViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8FB52BF726E5114E007416A5 /* YRNaviViewController.swift in Sources */,
+				8FB52BF926E5114E007416A5 /* UseCameraViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YREyeDistance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YREyeDistance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

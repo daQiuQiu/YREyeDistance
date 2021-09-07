@@ -1,5 +1,4 @@
 import XCTest
-import YREyeDistance
 
 class Tests: XCTestCase {
     
