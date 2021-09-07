@@ -39,6 +39,9 @@ TODO: Add long description of the pod here.
     end
   
   s.subspec 'ARKit' do |arkit|
+      arkit.dependency 'YREyeDistance/Core'
+      arkit.frameworks = 'ARKit'
+      
       arkit.source_files = 'YREyeDistance/Classes/ARKit/**/*'
     end
   
