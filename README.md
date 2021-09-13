@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YREyeDistance.svg?style=flat)](https://cocoapods.org/pods/YREyeDistance)
 [![Platform](https://img.shields.io/cocoapods/p/YREyeDistance.svg?style=flat)](https://cocoapods.org/pods/YREyeDistance)
 
+一个简单计算人眼到屏幕的方法
+
 ## Example
 
 代码很简单直接看demo
